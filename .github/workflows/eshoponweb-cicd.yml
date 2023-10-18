@@ -1,4 +1,3 @@
-#comment
 name: eShopOnWeb Build and Test
 
 #Triggers (uncomment line below to use it)
@@ -7,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-grecia
-  LOCATION: rg-az400-eshoponweb-grecia
+  LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 5e7c0b0d-d54a-49c4-833a-b5a7e5239233
   WEBAPP-NAME: az400-webapp-grecia
